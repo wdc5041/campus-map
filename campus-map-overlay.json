@@ -4,26 +4,10 @@
     {
       "type": "Feature",
       "properties": {
-        "marker-color": "#011993",
-        "marker-size": "medium",
-        "marker-symbol": "star-stroked",
-        "title": "Hire us!"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -77.86694169044495,
-          40.79327873053717
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "stroke": "#7a81ff",
+        "stroke": "#0433ff",
         "stroke-width": 1.5,
         "stroke-opacity": 0.6,
-        "fill": "#d6d6d6",
+        "fill": "#ffffff",
         "fill-opacity": 0.4,
         "title": "construction"
       },
@@ -63,56 +47,6 @@
               -77.86519289016724,
               40.794687969014625
             ]
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "marker-color": "#ff2600",
-        "marker-size": "medium",
-        "marker-symbol": "",
-        "title": "Alert"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -77.86098182201385,
-          40.80033680624839
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "stroke": "#ff40ff",
-        "stroke-width": 4,
-        "stroke-opacity": 0.5,
-        "title": "Arts Fest Vendors"
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -77.85693168640137,
-            40.791443020572224
-          ],
-          [
-            -77.85982847213745,
-            40.79301881008675
-          ],
-          [
-            -77.86431312561035,
-            40.79636520809925
-          ],
-          [
-            -77.86665201187134,
-            40.79470827482595
-          ],
-          [
-            -77.86390542984009,
-            40.792726398363705
           ]
         ]
       }
