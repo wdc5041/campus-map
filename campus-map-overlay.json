@@ -56,29 +56,14 @@
       "properties": {
         "marker-color": "#ff2600",
         "marker-size": "medium",
-        "marker-symbol": ""
+        "marker-symbol": "cross",
+        "title": "Alert!"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
           -77.86569714546204,
           40.79643830714415
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "marker-color": "#7e7e7e",
-        "marker-size": "medium",
-        "marker-symbol": "",
-        "title": "building no electric"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -77.86356210708618,
-          40.79860687552787
         ]
       }
     }
