@@ -66,6 +66,22 @@
           40.79643830714415
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#0096ff",
+        "marker-size": "medium",
+        "marker-symbol": "music",
+        "title": "Live Music"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.86174893379211,
+          40.79574792406613
+        ]
+      }
     }
   ]
 }
