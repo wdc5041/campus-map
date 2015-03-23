@@ -73,7 +73,8 @@
         "marker-color": "#0096ff",
         "marker-size": "medium",
         "marker-symbol": "music",
-        "title": "Live Music"
+        "title": "Live Music",
+        "description": "Wouldn't it be nice if we had live music on Old Main lawn today?"
       },
       "geometry": {
         "type": "Point",
