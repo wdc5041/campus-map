@@ -66,34 +66,6 @@
           40.79643830714415
         ]
       }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "marker-color": "#0096ff",
-        "marker-size": "medium",
-        "marker-symbol": "music",
-        "title": "Live Music",
-        "description": "Wouldn't it be nice if we had live music on Old Main lawn today?"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -77.86174893379211,
-          40.79574792406613
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {},
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -77.86302030086517,
-          40.79665760379586
-        ]
-      }
     }
   ]
 }
