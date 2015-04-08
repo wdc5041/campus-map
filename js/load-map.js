@@ -16,20 +16,3 @@ var map = L.mapbox.map('map', 'aarondennis.f6516522', { // Create a new map usin
 L.control.locate().addTo(map); // Adds the geolocate button to the map
 
 var hash = L.hash(map); // Makes the webpage URL change so that the coordinates are included
-  
-  $('#map').on('click', '.trigger', function() {
-    console.log('give directions');
-  });
-  
-  
-  //http://realtime.catabus.com/InfoPoint/rest/vehicles/getallvehiclesforroute?routeID="19"
-  $('#transit').on('click', function() {
-    console.log('clicked');
-    $.ajax({
-      url: 'http://realtime.catabus.com/InfoPoint/rest/vehicles/getallvehicles', 
-      // Work with the response
-      success: function( response ) {
-        console.log( JSON.stringify(response) ); // server response
-      }
-    });
-  });
