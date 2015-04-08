@@ -1,0 +1,45 @@
+/* Position and style the search bar */
+#bar { 
+  position:absolute; 
+  top:1em; bottom:80%; 
+  left:4em; 
+  right:5%; 
+  max-width:600px; 
+}
+
+/* Position and style the actual seach field where text is entered */
+#search { 
+  position:absolute; 
+  width:200; 
+  box-shadow: 2px 2px 2px #000; 
+}
+
+/* Position the division containing the map to fill the whole page and be under all other elements */
+#map { 
+  position:absolute; 
+  height: 100%; 
+  width:100%; 
+  z-index:-1; 
+}
+
+/* Set dimensions and scrolling of autocomplete menue */
+.ui-autocomplete {
+  max-height: 100px;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+* html .ui-autocomplete {
+   max-height: 25%;
+}
+    
+/* Position and style the geolocation button */   
+.leaflet-control-locate {
+      border:1px solid rgba(0,0,0,0.4);
+}
+.leaflet-control-locate a {
+  background-color:#fff;
+  background-position:-3px, -2px;
+}
+.leaflet-control-locate.active a {
+  background-position:-33px -2px;
+}
