@@ -1,4 +1,4 @@
-$.getJSON("./data/centroids.json", function(centroids) {
+$.getJSON("./data/building-centroids.json", function(centroids) {
   
   // add points layer to map
   var markers = L.mapbox.featureLayer(centroids)
