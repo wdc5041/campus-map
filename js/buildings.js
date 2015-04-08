@@ -1,5 +1,5 @@
 // The first line here loads the data in the building-centroids GeoJSON file
-$.getJSON("./data/building-centroids.json", function(centroids) { 
+$.getJSON("https://rawgit.com/pennstategeog467/campus-map/gh-pages/data/building-centroids.json", function(centroids) { 
   
   // Because everything we do after this depends on the JSON file being loaded, the above line waits for the JSON file to be loaded,
   // then the browser will proceed with the below code. The data from the JSON file is the variable `centroids`.
