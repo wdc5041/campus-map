@@ -10,7 +10,7 @@
   
   
   
-  <!--- PRE-WRITTEN CODE LIBRARIES -->
+  <!-- PRE-WRITTEN CODE LIBRARIES -->
   
   <!-- Load jQuery and jQuery UI javascript library for search bar interaction and loading JSON data -->
   <script src='./js/jquery/jquery.min.js'></script>
@@ -67,13 +67,17 @@
   
   <!-- CUSTOM JAVASCRIPT -->
   
-  <!-- Each `<script>` tag loads and runs a file of our javascript code in the `js` folder -->
+  <!-- Each `<script>` tag loads and runs a file of our javascript code, which we're storing in the `js` folder/directory -->
   
   <!-- This script uses Mapbox.js and Leaflet.js to add our base map tiles to the `#map` `div` -->
   <script src="js/load-map.js"></script>
   
   <!-- This script loads in the live data overlay from the GeoJSON file and adds it on top of the map -->
   <script src="js/add-overlay.js"></script>
+  
+  <!-- This script loads in the center points of campus buildings, sets up the search bar, and adds pop-ups to the center points -->
+  <script src="js/buildings.js"></script>
+  
   
 </body>
 </html>
